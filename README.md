@@ -5,6 +5,7 @@ Using **negative sampling**, it efficiently learns high-quality embeddings that 
 
 Additionally, the project leverages multiple datasets and explores key NLP concepts such as **logistic regression**, **loss functions**, **gradient descent**, and **backpropagation**, providing insights into the strengths and limitations of distributional representations.
 
+
 &nbsp;
 ### **Key Objectives**
 
@@ -25,21 +26,3 @@ Additionally, the project leverages multiple datasets and explores key NLP conce
    - Develop a modular and reusable API for word embedding training and evaluation.  
    - Ensure efficient handling of large datasets and scalability of the SkipGram model.
 
-### **Key Objectives**
-
-1. **Word Embedding Training**  
-   - Implement the **SkipGram model with Negative Sampling (SGNS)** to learn high-quality word embeddings.  
-   - Train embeddings using various datasets and optimize using **logistic regression**, **gradient descent**, and **loss functions**.
-
-2. **Distributional Semantics**  
-   - Explore the semantic relationships captured by embeddings through tasks like **word similarity** and **analogy solving**.  
-   - Compute **word similarity** using cosine distance between embeddings.  
-   - Retrieve **closest words** to a given word in the embedding space.  
-
-3. **Model Evaluation and Analysis**  
-   - Assess model performance through similarity and analogy benchmarks.  
-   - Analyze the impact of hyperparameters, such as embedding dimensions, context window sizes, and the number of negative samples.
-
-4. **Implementation**  
-   - Develop a modular and reusable API for word embedding training and evaluation.  
-   - Ensure efficient handling of large datasets and scalability of the SkipGram model.
